@@ -1,0 +1,20 @@
+    *{font-size:12px;}
+    .header-shadow{box-shadow: 10px 5px 5px black;}
+
+    .bg-1{background-color:#e3e3e3;}
+    .bg-black-overlay{background-color:rgba(14,14,14, 0.6);}
+    .bg-red{background-color:#dda121;}
+    .cl-gray{color:rgb(132,132,130);font-size:10px;}
+
+    #banner{background:url('../images/background.jpg') no-repeat center center;background-size:cover;background-position-y:100%; }
+    input[type='text'],.button-group .button{border-radius: 2px}
+    input[type=text] {background:rgb(215,213,214);color:rgb(129,129,129);}
+    input[placeholder] {background:rgb(215,213,214);}
+    input::-webkit-input-placeholder{color:rgb(129,129,129) ;}
+    #request-form-container{padding-bottom:40px;margin-bottom:50px;}
+    #request-form{margin-top:20px;}
+    .button.alert{background-color: #dda121;}
+    .sub-banner{line-height: 11px; }
+
+    #content{margin-top:-10px;}
+    #content div{height:170px;padding:30px;}

@@ -1,0 +1,24 @@
+/* Responsive: On large screens */ 
+    @media only screen and (min-width: 1024px) {
+      #banner{max-height:380px;vertical-align:middle;padding-bottom:200px;margin-bottom:50px;top:50%;}
+      
+      #request-form-container{width:1000px;margin-top:10px;}
+      #request-form{margin-top:20px;margin-left:-18%;margin-right:-87%;}
+      input[type='text']{width:200px;height:30px;}
+      .button-group .button{height:31px;padding: 0.6em 1em;}
+      #banner-heading{padding-top:55px;}
+      #banner h3{font-size:26px;font-weight:400;}
+      input[placeholder],.button.alert{font-size:13px;}
+      .large-1 input[placeholder]{width:13rem;}
+      .sub-banner{margin-left:-46px;}
+
+      #content div{padding:30px;}
+      #content div{border:10px solid white;}
+    }
+/* Responsive: Small only */
+    @media screen and (max-width: 39.9375em) {
+       #banner h3{padding: 40px;font-size:25px;width:245px;}
+      input[placeholder],.button.alert{font-size:13px;}
+      input[type='text'],.button-group .button{height:30px;margin-bottom:8px;}
+       #content div{height:150px; padding:20px 0 20px 0;}
+    }
